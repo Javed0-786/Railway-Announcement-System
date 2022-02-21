@@ -92,10 +92,6 @@ def generateAnnouncement(filename):
         announcement.export(f"announcement_{item['train_no']}_{index + 1}.mp3", format="mp3")
 
 
-
-        
-
-
 if __name__ == "__main__":
     print("generation Skeleton...")
     generateSkeleton()
